@@ -4,7 +4,8 @@
   "description": "Simple to do app for recruiters",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,25 @@
   "bugs": {
     "url": "https://github.com/twierzch/react-to-do/issues"
   },
-  "homepage": "https://github.com/twierzch/react-to-do#readme"
+  "homepage": "https://github.com/twierzch/react-to-do#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
 }
