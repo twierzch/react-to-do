@@ -1,2 +1,2 @@
 # react-to-do
-Simple to do list app for recruiters
+WIP: Simple to do list app for recruiters
