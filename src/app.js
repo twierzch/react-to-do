@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 
+import { TodoListContainer } from './containers/todoListContainer'
+
 export class App extends Component {
     render() {
-        return <div>Initial app setup</div>
+        return (
+            <div className="todo-app">
+                <TodoListContainer />
+            </div>
+        )
     }
 }
